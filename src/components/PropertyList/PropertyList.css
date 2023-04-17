@@ -1,0 +1,25 @@
+.property__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  max-width: 1024px;
+}
+.property__list-item {
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  flex: 1;
+}
+.property__list-img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+}
+.property__list-titles > h1 {
+  font-size: 18px;
+}
+.property__list-titles > h2 {
+  font-size: 14px;
+  font-weight: 300;
+}
