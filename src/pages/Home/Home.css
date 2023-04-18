@@ -7,5 +7,6 @@
 }
 .home__title {
   font-size: 20px;
-  width: 1024px;
+  width: 100%;
+  max-width: 1024px;
 }
